@@ -1,0 +1,61 @@
+
+C:\Users\fadhil\Desktop\pgm1 copy new\new copy\tobeSubmit>javac *.java
+
+C:\Users\fadhil\Desktop\pgm1 copy new\new copy\tobeSubmit>java PrivacyGraphIDs1
+Enter a source: f
+Enter a destination: j
+
+Registered(USER): (a) Is Connected to the Edge(Attributes)==========>>>>> c b
+
+Registered(USER): (b) Is Connected to the Edge(Attributes)==========>>>>> e d
+
+Registered(USER): (c) Is Connected to the Edge(Attributes)==========>>>>> d
+
+Registered(USER): (d) Is Connected to the Edge(Attributes)==========>>>>> e
+
+Registered(USER): (e) Is Connected to the Edge(Attributes)==========>>>>>
+
+Registered(USER): (f) Is Connected to the Edge(Attributes)==========>>>>> g
+
+Registered(USER): (g) Is Connected to the Edge(Attributes)==========>>>>> e
+
+Registered(USER): (h) Is Connected to the Edge(Attributes)==========>>>>>
+
+Registered(USER): (i) Is Connected to the Edge(Attributes)==========>>>>>
+
+Registered(USER): (j) Is Connected to the Edge(Attributes)==========>>>>>
+
+Registered(USER): (1) Is Connected to the Edge(Attributes)==========>>>>> 3 2
+
+Registered(USER): (2) Is Connected to the Edge(Attributes)==========>>>>> 5 4
+
+Registered(USER): (3) Is Connected to the Edge(Attributes)==========>>>>> 4
+
+Registered(USER): (4) Is Connected to the Edge(Attributes)==========>>>>> 5
+
+Registered(USER): (5) Is Connected to the Edge(Attributes)==========>>>>>
+
+Registered(USER): (6) Is Connected to the Edge(Attributes)==========>>>>> 3 4
+
+Registered(USER): (7) Is Connected to the Edge(Attributes)==========>>>>>
+
+Registered(USER): (8) Is Connected to the Edge(Attributes)==========>>>>>
+
+Registered(USER): (9) Is Connected to the Edge(Attributes)==========>>>>>
+
+Registered(USER): (10) Is Connected to the Edge(Attributes)==========>>>>>
+
+::::::::::::::::::::::::::::(Trusted) DFS/BFS Traversal Trace::::::::::::::::::::::::::::::::::::::::::::
+a c d e b
+Registered(USER/GROUP)Node = (a) , Has Permission Attribute/USER/GROUP = [c, b]
+Registered(USER/GROUP)Node = (b) , Has Permission Attribute/USER/GROUP = [e, d]
+Registered(USER/GROUP)Node = (c) , Has Permission Attribute/USER/GROUP = [d]
+Registered(USER/GROUP)Node = (d) , Has Permission Attribute/USER/GROUP = [e]
+Registered(USER/GROUP)Node = (e) , Has Permission Attribute/USER/GROUP = [] f j g
+Registered(USER/GROUP)Node = (f) , Has Permission Attribute/USER/GROUP = [j, g]
+Registered(USER/GROUP)Node = (g) , Has Permission Attribute/USER/GROUP = [e] h
+Registered(USER/GROUP)Node = (h) , Has Permission Attribute/USER/GROUP = [] i
+Registered(USER/GROUP)Node = (i) , Has Permission Attribute/USER/GROUP = []
+Registered(USER/GROUP)Node = (j) , Has Permission Attribute/USER/GROUP = []
+
+C:\Users\fadhil\Desktop\pgm1 copy new\new copy\tobeSubmit>
